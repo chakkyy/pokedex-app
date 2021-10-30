@@ -9,3 +9,5 @@ Technologies => React, Redux, and StyledComponents
 Consuming data from https://pokeapi.co/
 
 ## Hope you enjoy it! 💜😃
+
+Live on: https://pokedexapp-gold.vercel.app/

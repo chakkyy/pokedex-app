@@ -12,7 +12,7 @@ import {
 const LandingPage = () => {
   const openingSound = new Howl({
     src: [Opening],
-    volume: 0.4,
+    volume: 0.2,
   });
 
   return (

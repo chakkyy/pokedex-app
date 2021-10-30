@@ -145,7 +145,7 @@ const AsideMenu = () => {
       <input type="radio" name="accordion" id="cb2" />
       <section className="box">
         <label className="box-title" htmlFor="cb2" onClick={() => click.play()}>
-          StyledTypes
+          Types
         </label>
         <label className="box-close" htmlFor="acc-close"></label>
         <div className="box-content">

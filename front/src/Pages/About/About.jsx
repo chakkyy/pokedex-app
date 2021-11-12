@@ -19,17 +19,6 @@ const About = () => {
   const theme = useSelector((state) => state.themes.theme);
   const style = useSelector((state) => state.themes.style);
 
-  const handleClick = () => {
-    Swal.fire({
-      title: `Portfolio under construction`,
-      text: `Thanks for support me! 💜`,
-      imageUrl: "https://i.imgur.com/hY4kEI1.gif",
-      imageAlt: "pokeball",
-      width: 500,
-      position: "top",
-    });
-  };
-
   return (
     <div>
       <NavBar />
@@ -96,7 +85,11 @@ const About = () => {
                     }
                   />
                 </a>
-                <span onClick={handleClick}>
+                <a
+                  href="https://cramirez.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <StyledIcon
                     src={
                       theme === "light"
@@ -104,7 +97,7 @@ const About = () => {
                         : "https://api.iconify.design/dashicons:portfolio.svg?color=white"
                     }
                   />
-                </span>
+                </a>
               </StyledLinks>
             </StyledInfoContainer>
           </StyledProfile>
